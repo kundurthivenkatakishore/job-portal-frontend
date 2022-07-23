@@ -9,7 +9,7 @@ import {
   TextField,
 } from "@material-ui/core";
 import axios from "axios";
-import { ComponentChipInput } from "chip-input";
+import ChipInput from "material-ui-chip-input";
 import FileUploadInput from "../lib/FileUploadInput";
 import DescriptionIcon from "@material-ui/icons/Description";
 import FaceIcon from "@material-ui/icons/Face";
@@ -253,7 +253,7 @@ const Profile = (props) => {
                 setEducation={setEducation}
               />
               <Grid item>
-                <ComponentChipInput
+                <ChipInput
                   className={classes.inputBox}
                   label="Skills"
                   variant="outlined"

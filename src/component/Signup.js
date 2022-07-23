@@ -11,11 +11,10 @@ import {
 } from "@material-ui/core";
 import axios from "axios";
 import { Redirect } from "react-router-dom";
-// import ChipInput from "material-ui-chip-input";
-import {ComponentChipInput} from 'chip-input';
+import ChipInput from "material-ui-chip-input";
 import DescriptionIcon from "@material-ui/icons/Description";
 import FaceIcon from "@material-ui/icons/Face";
-import PhoneInput from "react-phone-number-input";
+import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/material.css";
 
 import PasswordInput from "../lib/PasswordInput";
@@ -399,7 +398,7 @@ const Login = (props) => {
               setEducation={setEducation}
             />
             <Grid item>
-              <ComponentChipInput
+              <ChipInput
                 className={classes.inputBox}
                 label="Skills"
                 variant="outlined"

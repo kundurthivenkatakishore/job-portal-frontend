@@ -14,7 +14,7 @@ import { Redirect } from "react-router-dom";
 import ChipInput from "material-ui-chip-input";
 import DescriptionIcon from "@material-ui/icons/Description";
 import FaceIcon from "@material-ui/icons/Face";
-import PhoneInput from "react-phone-input-2";
+import PhoneInput from "react-phone-number-input";
 import "react-phone-input-2/lib/material.css";
 
 import PasswordInput from "../lib/PasswordInput";
